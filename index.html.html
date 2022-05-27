@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head><b>"FAIRY TALES DO NOT TELL CHILDREN THAT DRAGONS EXIST. CHILDREN ALREADY KNOW THAT DRAGONS EXIST. FAIRY TALES TELL CHILDREN THAT DRAGONS CAN BE KILLED."</b>
+</head>
+<style>
+  body {
+    color: rgb(97, 97, 236);
+  }
+  
+  h1 {
+    color: rgb(224, 196, 196);
+  }
+  </style>
+    <br><br>
+    <style>
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      </style>
+    <img src="images\web cover.jpg" alt="web cover" width="700" height="200">
+    <br><br>
+  <div class="slideshow-container">
+  
+  <div class="mySlides fade"> 
+  <img src="images\title.png" style="width:30%">  
+  </div>
+  
+  <div class="mySlides fade">
+  <img src="images\criminal.jpg" style="width:30%">
+  </div>
+  
+  <div class="mySlides fade">
+    <img src="images\team.jpg" style="width:30%">
+  </div>
+ 
+  
+  <div>
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+</div>
+
+  </div>
+  <br>
+  
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+  </div>
+  
+  <script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+  }
+  </script>
+  
+  <link rel="Criminal Minds" href="criminal minds.css">
+</head>
+<body style="background-color:rgb(2, 55, 73);">
+<h1><i>Criminal Minds</i></h1>
+<hr>
+<p><b>Criminal Minds</b> is an American police procedural crime drama television series created and produced by Jeff Davis. The series premiered on CBS on September 22, 2005, and concluded on February 19, 2020. It follows a group of criminal profilers who work for the FBI as members of its Behavioral Analysis Unit (BAU), using behavioral analysis and profiling to investigate crimes and find the unsub (unknown subject), the team's nickname for perpetrators. The show tells the story of the team as they work various cases and tackle their personal struggles.</p>
+<br>
+<p>The show's <u>original main cast</u> consisted of seven characters: Jason Gideon (Mandy Patinkin), Aaron Hotchner (Thomas Gibson), Elle Greenaway (Lola Glaudini), Derek Morgan (Shemar Moore), Spencer Reid (Matthew Gray Gubler), Jennifer Jareau (A. J. Cook), and Penelope Garcia (Kirsten Vangsness). The cast underwent major changes throughout the series' run, with several of the show's original members being replaced by nine additional starring characters: Emily Prentiss (Paget Brewster), David Rossi (Joe Mantegna), Ashley Seaver (Rachel Nichols), Alex Blake (Jeanne Tripplehorn), Kate Callahan (Jennifer Love Hewitt), Tara Lewis (Aisha Tyler), Luke Alvez (Adam Rodriguez), Stephen Walker (Damon Gupton), and Matt Simmons (Daniel Henney).</p>
+<h2 style="color:rgb(193, 219, 235)">Current Actors</h2>
+<style>
+  a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: rgb(250, 249, 249);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  </style>
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8zIzgbc38rU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br><br>
+<a href="https://www.imdb.com/name/nm0176882/">A.J. Cook</a>
+<br><br>
+<img src="images\A.J. Cook.jpg" alt="A.J. Cook" width="200" height="270">
+<br><br>
+<a href="https://www.imdb.com/name/nm1131557/">Matthew Gray Gubler</a>
+<br><br>
+<img src="images\Matthew Gray Gubler.jpg" alt="Matthew Gray Gubler" width="200" height="270">
+<br><br>
+<a href="https://www.imdb.com/name/nm1494536/">Kirsten Vangsness</a>
+<br><br>
+<img src="images\Kristen Vangsness.jpg" alt="Kirsten Vangsness" width="200" height="270">
+<br><br>
+<a href="https://www.imdb.com/name/nm0005245/">Shemar Moore</a>
+<br><br>
+<img src="images\Shemar Moore.jpg" alt="Shemar Moore" width="200" height="270">
+<br><br>
+<a href="https://www.imdb.com/name/nm0108295/">Paget Brewster</a>
+<br><br>
+<img src="images\Paget Brewster.jpg" alt="Paget Brewster" width="200" height="270">
+<br><br>
+<a href="https://www.imdb.com/name/nm0001505/">Joe Mantegna</a>
+<br><br>
+<img src="images\Joe Mantegna.jpg" alt="Joe Mantegna" width="200" height="270">
+<br><br>
+
+<style>
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #5137e3;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  </style>
+  </head>
+  <body>
+  
+  <h2>Characters Information</h2>
+  
+  <style>
+    table, th, td {
+      border: 1.5px solid rgb(191, 53, 53);
+      border-radius: 10px;
+    }
+    </style>
+
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Character's Name</th>
+      <th>Specialise</th>
+    </tr>
+    <tr>
+      <td>A. J. Cook</td>
+      <td>Jennifer Jareau</td>
+      <td>FBI Supervisory Special Agent</td>
+    </tr>
+    <tr>
+      <td>Matthew Gray Gubler</td>
+      <td>Dr. Spencer Reid</td>
+      <td>FBI Supervisory Special Agent</td>
+    </tr>
+    <tr>
+      <td>Kirsten Vangsness</td>
+      <td>Penelope Garcia</td>
+      <td>BAU Technical Analyst and BAU Communications Liaison</td>
+    </tr>
+    <tr>
+      <td>Shemar Moore</td>
+      <td>Derek Morgan</td>
+      <td>FBI Supervisory Special Agent</td>
+    </tr>
+    <tr>
+      <td>Paget Brewster</td>
+      <td>Emily Prentiss</td>
+      <td>Supervisory Special Agent and BAU Unit Chief</td>
+    </tr>
+    <tr>
+      <td>Joe Mantegna</td>
+      <td>David Rossi</td>
+      <td>Senior Supervisory Special Agent</td>
+    </tr>
+  </table>
+  
+  <br>
+  <a href="contact.html">Contact</a>
+
+</body>
+</html>
